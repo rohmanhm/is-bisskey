@@ -7,6 +7,6 @@ test('Should return false if bisskey is not valid', t => {
   t.is(isBisskey('1245DFAA9874987G'), false)
 })
 
-test('Should return  if bisskey is not valid', t => {
+test('Should return true if bisskey is valid', t => {
   t.is(isBisskey('1245DFAA9874987A'), true)
 })
