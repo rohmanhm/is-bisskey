@@ -1,6 +1,7 @@
 {
   "name": "is-bisskey",
   "description": "Check wether string is Bisskey code or not",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "author": {

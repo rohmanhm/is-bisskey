@@ -9,4 +9,8 @@ test('Should return false if bisskey is not valid', t => {
 
 test('Should return true if bisskey is valid', t => {
   t.is(isBisskey('1245DFAA9874987A'), true)
+  t.is(isBisskey('9999AECD00092BBB'), true)
+  t.is(isBisskey('1111111111111111'), true)
+  t.is(isBisskey('1AABBEEAAAAAAA1a'), true)
+  t.is(isBisskey('0000000000000300'), true)
 })
