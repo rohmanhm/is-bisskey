@@ -1,9 +1,8 @@
 {
   "name": "is-bisskey",
   "description": "Check wether string is Bisskey code or not",
-  "version": "1.0.0",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "author": {
     "name": "Roman Masyhar",
     "email": "mhrohman@live.com"
